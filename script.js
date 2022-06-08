@@ -19,8 +19,60 @@ function addItem(){
 
    checkIcon.className = "fas fa-check-square";
    checkIcon.style.color = "darkgray";
-   checkIcon.addEventListener("click", function(){
+   
+   checkIcon.addEventListener("click", function()
+   {   
       checkIcon.style.color = "Limegreen";
+
+         checkIcon.addEventListener("click", function()
+         {   
+         checkIcon.style.color = "darkgray";
+
+            checkIcon.addEventListener("click", function()
+            {   
+            checkIcon.style.color = "Limegreen";
+            
+               checkIcon.addEventListener("click", function()
+               {   
+               checkIcon.style.color = "darkgray";
+              
+                  checkIcon.addEventListener("click", function()
+                  {   
+                  checkIcon.style.color = "Limegreen";
+                  
+                     checkIcon.addEventListener("click", function()
+                     {   
+                        checkIcon.style.color = "darkgray";
+                     
+                           checkIcon.addEventListener("click", function()
+                           {   
+                           checkIcon.style.color = "Limegreen";
+                           
+                              checkIcon.addEventListener("click", function()
+                              {   
+                                 checkIcon.style.color = "darkgray";
+                             
+                                 checkIcon.addEventListener("click", function()
+                                 {   
+                                    checkIcon.style.color = "Limegreen";
+                                 
+                                    checkIcon.addEventListener("click", function()
+                                       {   
+                                           checkIcon.style.color = "darkgray";
+                                          
+                                           checkIcon.addEventListener("click", function()
+                                           {   
+                                              checkIcon.style.color = "Limegreen";
+                                           })
+                                       })
+                                 })
+                              })
+                           })
+                     })
+                  })
+               })
+            })
+         })
    })
 
    divChild.appendChild(checkIcon);
